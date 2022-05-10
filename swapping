@@ -1,0 +1,12 @@
+#include<stdio.h>   //Including the stdio.h headder file
+void main()      //Start of the main function
+{
+    int a,b;            //Variables are initialize
+    printf("Enter the value of a,b : ");        //Here the value of the numbers are reseved
+    scanf("%d%d",&a,&b);         //Here the values are stored in the variable address
+    a = a + b;             //Here the swapping of the numbers are done by doing arithmetic operation on them
+    b = a - b;
+    a = a - b; 
+    printf("Value of a = %d \n Value of b = %d \n :) ",a,b);      //Here the swapped values are printed for a and b
+
+}
